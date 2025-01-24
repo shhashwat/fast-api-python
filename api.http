@@ -1,8 +1,8 @@
-POST http://localhost:8000/bands
+POST http://localhost:8000/bands/
 Content-Type: application/json
 
 {
-    "name": "Project-A",
+    "name": "NoMads",
     "genre": "hip-hop",
     "albums": [
         {
@@ -14,4 +14,4 @@ Content-Type: application/json
 
 ###
 
-GET http://localhost:8000/bands
+GET http://localhost:8000/bands/222

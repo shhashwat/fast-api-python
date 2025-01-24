@@ -1,0 +1,17 @@
+POST http://localhost:8000/bands
+Content-Type: application/json
+
+{
+    "name": "Project-A",
+    "genre": "hip-hop",
+    "albums": [
+        {
+            "title": "Project-A",
+            "release_date": "2018-07-27"
+        }
+    ]
+}
+
+###
+
+GET http://localhost:8000/bands

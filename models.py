@@ -40,3 +40,4 @@ class BandCreate(BandBase):
 class Band(BandBase, table=True):
     id: int = Field(default=None, primary_key=True)
     albums: list[Album] = Relationship(back_populates="band")
+    date_formed: date | None

@@ -14,4 +14,4 @@ Content-Type: application/json
 
 ###
 
-GET http://localhost:8000/bands/222
+GET http://localhost:8000/bands
